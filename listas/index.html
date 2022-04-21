@@ -4,46 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>2 lista</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Explore</a></li>
-        <li><a href="#">Notifications</a></li>
-        <li><a href="#">Messages</a></li>
-        <li><a href="#">More</a></li>
-    </ul>
+    <nav id="navegacao">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Notifications</a></li>
+            <li><a href="#">Messages</a></li>
+            <li><a href="#">More</a></li>
+        </ul>
+    </nav>
 
-    <h3>Mateus Gonçalves Loiola</h3>
+    <div>
+        <img src="sprites/perfil.webp" alt="">
+        <button>Edit Profire</button>
+    </div>
+
+    <h3 id="usuario-nome">Mateus Gonçalves Loiola</h3>
 
     <h4>@mateusloiola05</h4>
 
-    <p>Web Developer - student at Federal University of Ceará </p>
+    <p id="biografia">Web Developer - student at Federal University of Ceará </p>
 
-    <ul>
+    <ul id="localizacao-joined">
         <li>Quixadá</li>
         <li>Joined January 2010</li>
     </ul>
 
-    <ul>
-        <li>96 follwing</li>
-        <li>79 followers</li>
+    <ul id="estatisticas">
+        <li> <span>96</span> follwing</li>
+        <li> <span>79</span> followers</li>
     </ul>
 
-    <div>
+    <div id="publicacoes">
         <a href="#">Tweets</a>
         <a href="#">Tweets & replies</a>
         <a href="#">Media</a>
         <a href="#">Likes</a>
     </div>
 
-    <section>
+    <section id="Tweets-container">
         
         <div>
-            <h5>Atila Iamarino @oatila Oct 21, 2021</h5>
+            <h5>Atila Iamarino <span>@oatila</span> Oct 21, 2021</h5>
             <p>Se vai furar orçamento , dá pra voltar a financiar absorventes e a ciência ? Ou só voto mesmo ?</p>
-            <div>
+            <div class="acoes">
                 <a href="#">Reply</a>
                 <a href="#">Retzeet</a>
                 <a href="#">Like</a>
@@ -52,9 +63,9 @@
         </div>
 
         <div>
-            <h5>Bruno Góis Mateus @brunomateuss Jun 1, 2011</h5>
+            <h5>Bruno Góis Mateus <span>@brunomateuss</span> Jun 1, 2011</h5>
             <p>something really bad is happing in somewhere in the world .. gmal is off</p>
-            <div>
+            <div class="acoes">
                 <a href="#">Reply</a>
                 <a href="#">Retzeet</a>
                 <a href="#">Like</a>
